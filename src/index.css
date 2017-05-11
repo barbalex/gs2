@@ -237,3 +237,8 @@ body {
   padding-right: 0;
   padding-left: 0;
 }
+
+
+.affix .active {
+  background-color: #f5f5f5;
+}

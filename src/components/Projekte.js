@@ -1,5 +1,7 @@
 import React from 'react'
 import { Nav, NavItem, Carousel, CarouselItem } from 'react-bootstrap'
+import { withRouter } from 'react-router'
+
 import apfImg from '../../images/apflora.png'
 import apfAnmeldenImg from '../../images/apflora_anmelden.png'
 import apfTpopImg from '../../images/apflora_tpop.png'
@@ -79,27 +81,53 @@ import gsBearbImg from '../../images/gs_bearb.png'
 import gsBerichteImg from '../../images/gs_berichte.png'
 import gsExportImg from '../../images/gs_export.png'
 
-const ProjektePage = () => (
+const ProjektePage = ({ location }) => (
   <div id="projekte" className="page projekte">
     <div className="row">
       <div className="col-lg-2">
         <Nav className="affix">
-          <NavItem href="projekte#apflora" className="nav-a">
+          <NavItem
+            href="projekte#apflora"
+            className={location.hash === '#apflora' ? 'nav-a active' : 'nav-a'}
+          >
             apflora.ch
           </NavItem>
-          <NavItem href="projekte#artendb_web" className="nav-a">
+          <NavItem
+            href="projekte#artendb_web"
+            className={
+              location.hash === '#artendb_web' ? 'nav-a active' : 'nav-a'
+            }
+          >
             arteigenschaften.ch
           </NavItem>
-          <NavItem href="projekte#artendb_access" className="nav-a">
+          <NavItem
+            href="projekte#artendb_access"
+            className={
+              location.hash === '#artendb_access' ? 'nav-a active' : 'nav-a'
+            }
+          >
             ArtenDb
           </NavItem>
-          <NavItem href="projekte#evab_mobile" className="nav-a">
+          <NavItem
+            href="projekte#evab_mobile"
+            className={
+              location.hash === '#evab_mobile' ? 'nav-a active' : 'nav-a'
+            }
+          >
             evab mobile
           </NavItem>
-          <NavItem href="projekte#blue-borders" className="nav-a">
+          <NavItem
+            href="projekte#blue-borders"
+            className={
+              location.hash === '#blue-borders' ? 'nav-a active' : 'nav-a'
+            }
+          >
             blue-borders.ch
           </NavItem>
-          <NavItem href="projekte#kapla" className="nav-a">
+          <NavItem
+            href="projekte#kapla"
+            className={location.hash === '#kapla' ? 'nav-a active' : 'nav-a'}
+          >
             Kapla
           </NavItem>
         </Nav>
@@ -762,4 +790,4 @@ const ProjektePage = () => (
 
 ProjektePage.displayName = 'ProjektePage'
 
-export default ProjektePage
+export default withRouter(ProjektePage)

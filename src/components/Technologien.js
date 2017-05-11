@@ -1,6 +1,5 @@
-'use strict'
-
 import React from 'react'
+
 import linuxSwImg from '../../images/linux_sw.png'
 import appleImg from '../../images/apple.png'
 import windowsImg from '../../images/windows_sw.png'
