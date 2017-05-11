@@ -46,7 +46,7 @@ class KontaktPage extends Component {
             <div>
               <small>
                 <a
-                  href="https://maps.google.ch/maps/ms?msa=0&amp;msid=217393511380700194313.0004ec28f717b23f56ca5&amp;ie=UTF8&amp;t=h&amp;ll=47.283873,8.563963&amp;spn=0,0&amp;source=embed"
+                  href="https://www.google.ch/maps/place/47%C2%B017'01.9%22N+8%C2%B033'50.1%22E/@47.2838532,8.5632326,172m/data=!3m2!1e3!4b1!4m5!3m4!1s0x0:0x0!8m2!3d47.283852!4d8.56393"
                   style={{
                     color: '#0000FF',
                     textAlign: 'left',
