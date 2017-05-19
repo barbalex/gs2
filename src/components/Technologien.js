@@ -23,17 +23,26 @@ const TechnologienPage = () => (
             <a
               href="http://de.wikipedia.org/wiki/Microsoft_Windows"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Windows
             </a>
           </li>
           <li>
-            <a href="http://de.wikipedia.org/wiki/Ubuntu" target="_blank">
+            <a
+              href="http://de.wikipedia.org/wiki/Ubuntu"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Ubuntu Linux
             </a>
           </li>
           <li>
-            <a href="http://de.wikipedia.org/wiki/Mac_OS_X" target="_blank">
+            <a
+              href="http://de.wikipedia.org/wiki/Mac_OS_X"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Mac OS X
             </a>
           </li>
@@ -50,22 +59,38 @@ const TechnologienPage = () => (
         </h4>
         <ul>
           <li>
-            <a href="http://couchdb.apache.org" target="_blank">
+            <a
+              href="http://couchdb.apache.org"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               CouchDB
             </a>
           </li>
           <li>
-            <a href="http://www.postgresql.org" target="_blank">
+            <a
+              href="http://www.postgresql.org"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               PostgreSQL
             </a>
           </li>
           <li>
-            <a href="http://www.mysql.de" target="_blank">
+            <a
+              href="http://www.mysql.de"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               MySQL
             </a>
           </li>
           <li>
-            <a href="http://www.sqlite.org" target="_blank">
+            <a
+              href="http://www.sqlite.org"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               SQLite
             </a>
           </li>
@@ -73,6 +98,7 @@ const TechnologienPage = () => (
             <a
               href="http://de.wikipedia.org/wiki/Microsoft_Access"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Microsoft Access
             </a>
@@ -96,7 +122,11 @@ const TechnologienPage = () => (
         </h4>
         <ul>
           <li>
-            <a href="http://en.wikipedia.org/wiki/JavaScript" target="_blank">
+            <a
+              href="http://en.wikipedia.org/wiki/JavaScript"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               JavaScript / ES6
             </a>
           </li>
@@ -104,6 +134,7 @@ const TechnologienPage = () => (
             <a
               href="http://de.wikipedia.org/wiki/JavaScript_Object_Notation"
               target="_blank"
+              rel="noopener noreferrer"
             >
               JSON
             </a>
@@ -112,6 +143,7 @@ const TechnologienPage = () => (
             <a
               href="http://de.wikipedia.org/wiki/Cascading_Style_Sheets"
               target="_blank"
+              rel="noopener noreferrer"
             >
               CSS
             </a>
@@ -120,17 +152,26 @@ const TechnologienPage = () => (
             <a
               href="http://de.wikipedia.org/wiki/Hypertext_Markup_Language"
               target="_blank"
+              rel="noopener noreferrer"
             >
               HTML
             </a>
           </li>
           <li>
-            <a href="http://de.wikipedia.org/wiki/PHP" target="_blank">
+            <a
+              href="http://de.wikipedia.org/wiki/PHP"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               PHP
             </a>
           </li>
           <li>
-            <a href="http://de.wikipedia.org/wiki/SQL" target="_blank">
+            <a
+              href="http://de.wikipedia.org/wiki/SQL"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               SQL
             </a>
           </li>
@@ -138,6 +179,7 @@ const TechnologienPage = () => (
             <a
               href="http://de.wikipedia.org/wiki/Visual_Basic_for_Applications"
               target="_blank"
+              rel="noopener noreferrer"
             >
               VBA
             </a>
@@ -151,61 +193,109 @@ const TechnologienPage = () => (
         </h4>
         <ul>
           <li>
-            <a href="http://http://nodejs.org" target="_blank">
+            <a
+              href="http://http://nodejs.org"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               node.js
             </a>
           </li>
           <li>
-            <a href="http://electron.atom.io" target="_blank">
+            <a
+              href="http://electron.atom.io"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               electron
             </a>
           </li>
           <li>
-            <a href="http://hapijs.com" target="_blank">
+            <a
+              href="http://hapijs.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               hapi
             </a>
           </li>
           <li>
-            <a href="http://gulpjs.com" target="_blank">
+            <a
+              href="http://gulpjs.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               gulp.js
             </a>
             &nbsp;und&nbsp;
-            <a href="http://webpack.github.io" target="_blank">
+            <a
+              href="http://webpack.github.io"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               webpack
             </a>
           </li>
           <li>
-            <a href="https://facebook.github.io/react" target="_blank">
+            <a
+              href="https://facebook.github.io/react"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               React
             </a>
           </li>
           <li>
-            <a href="http://jquery.com/" target="_blank">
+            <a
+              href="http://jquery.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               jQuery
             </a>
           </li>
           <li>
-            <a href="http://jquerymobile.com/" target="_blank">
+            <a
+              href="http://jquerymobile.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               jQuery mobile
             </a>
           </li>
           <li>
-            <a href="http://getbootstrap.com/" target="_blank">
+            <a
+              href="http://getbootstrap.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Bootstrap
             </a>
           </li>
           <li>
-            <a href="http://jqueryui.com/" target="_blank">
+            <a
+              href="http://jqueryui.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               jQuery UI
             </a>
           </li>
           <li>
-            <a href="http://docs.couchdb.org/en/1.6.1/couchapp" target="_blank">
+            <a
+              href="http://docs.couchdb.org/en/1.6.1/couchapp"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               CouchApp
             </a>
           </li>
           <li>
-            <a href="http://openlayers.org/" target="_blank">
+            <a
+              href="http://openlayers.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               OpenLayers
             </a>
           </li>
@@ -213,12 +303,17 @@ const TechnologienPage = () => (
             <a
               href="http://www.geo.admin.ch/internet/geoportal/de/home/services/geoservices/display_services/api_services.html"
               target="_blank"
+              rel="noopener noreferrer"
             >
               GeoAdmin API
             </a>
           </li>
           <li>
-            <a href="https://developers.google.com/maps/?hl=de" target="_blank">
+            <a
+              href="https://developers.google.com/maps/?hl=de"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Google Maps API
             </a>
           </li>

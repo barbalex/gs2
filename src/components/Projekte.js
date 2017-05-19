@@ -9,8 +9,7 @@ import apfFeldkontrImg from '../images/apflora_feldkontr.png'
 import apfGoogleKartenImg from '../images/apflora_google_karten.png'
 import apfChkartenImg from '../images/apflora_chkarten.png'
 import apfUeberlagernImg from '../images/apflora_ueberlagern.png'
-import apfRaeumlichAuswertenImg
-  from '../images/apflora_raeumlich_auswerten.png'
+import apfRaeumlichAuswertenImg from '../images/apflora_raeumlich_auswerten.png'
 import apfZuordnenKarteImg from '../images/apflora_zuordnen_karte.png'
 import apfExportierenImg from '../images/apflora_exportieren.png'
 import apfMenuImg from '../images/apflora_menue.png'
@@ -60,8 +59,7 @@ import evm04ArtgruppeWaehlenImg
 import evm05ArtWaehlenImg from '../images/evab_mobile_05_art_waehlen.png'
 import evm06ArtFilternImg from '../images/evab_mobile_06_art_filtern.png'
 import evm07VerortenImg from '../images/evab_mobile_07_verorten.png'
-import evm08FelderWaehlenImg
-  from '../images/evab_mobile_08_felder_waehlen.png'
+import evm08FelderWaehlenImg from '../images/evab_mobile_08_felder_waehlen.png'
 import evm09FelderAuflistenImg
   from '../images/evab_mobile_09_felder_auflisten.png'
 import evm10EigeneFelderVerwaltenImg
@@ -244,7 +242,11 @@ const ProjektePage = ({ location }) => (
             </Carousel>
             <p>
               Mehr Informationen&nbsp;
-              <a href="https://github.com/FNSKtZH/apflora" target="_blank">
+              <a
+                href="https://github.com/FNSKtZH/apflora"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 auf GitHub
               </a>
             </p>
@@ -421,7 +423,11 @@ const ProjektePage = ({ location }) => (
             </Carousel>
             <p>
               Mehr Informationen&nbsp;
-              <a href="https://github.com/FNSKtZH/artendb" target="_blank">
+              <a
+                href="https://github.com/FNSKtZH/artendb"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 auf GitHub
               </a>
             </p>
@@ -521,6 +527,7 @@ const ProjektePage = ({ location }) => (
               <a
                 href="http://www.aln.zh.ch/internet/baudirektion/aln/de/naturschutz/naturschutzdaten/tools/arten_db.html#a-content"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 auf der Webseite der Fachstelle Naturschutz des Kantons Zürich
               </a>
@@ -671,7 +678,11 @@ const ProjektePage = ({ location }) => (
             </Carousel>
             <p>
               Mehr Informationen&nbsp;
-              <a href="https://github.com/barbalex/EvabMobile" target="_blank">
+              <a
+                href="https://github.com/barbalex/EvabMobile"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 auf GitHub
               </a>
             </p>
@@ -716,7 +727,11 @@ const ProjektePage = ({ location }) => (
             </Carousel>
             <p>
               Schauen Sie selber:&nbsp;
-              <a href="http://blue-borders.ch" target="_blank">
+              <a
+                href="http://blue-borders.ch"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 blue-borders.ch
               </a>
             </p>
@@ -777,7 +792,11 @@ const ProjektePage = ({ location }) => (
             </Carousel>
             <p>
               Mehr Informationen&nbsp;
-              <a href="https://github.com/barbalex/kapla3" target="_blank">
+              <a
+                href="https://github.com/barbalex/kapla3"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 auf GitHub
               </a>
             </p>

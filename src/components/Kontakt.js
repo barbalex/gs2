@@ -52,6 +52,7 @@ class KontaktPage extends Component {
                     textAlign: 'left',
                   }}
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   in Google Maps öffnen
                 </a>
