@@ -1,5 +1,5 @@
 import React from 'react'
-import kroneImage from '../../images/krone.png'
+import kroneImage from '../images/krone.png'
 
 const LeitbildPage = () => (
   <div id="leitbild" className="page leitbild">

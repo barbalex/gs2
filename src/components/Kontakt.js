@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import ImageLoader from 'react-imageloader'
 
 import prepareGoogleMap from '../modules/prepareGoogleMap'
-import alexImg from '../../images/alex.jpg'
+import alexImg from '../images/alex.jpg'
 
 class KontaktPage extends Component {
   componentDidMount() {

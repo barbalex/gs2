@@ -1,9 +1,9 @@
 import React from 'react'
 
-import linuxSwImg from '../../images/linux_sw.png'
-import appleImg from '../../images/apple.png'
-import windowsImg from '../../images/windows_sw.png'
-import databaseImg from '../../images/database.png'
+import linuxSwImg from '../images/linux_sw.png'
+import appleImg from '../images/apple.png'
+import windowsImg from '../images/windows_sw.png'
+import databaseImg from '../images/database.png'
 
 const TechnologienPage = () => (
   <div id="technologien" className="page technologien not_home">
