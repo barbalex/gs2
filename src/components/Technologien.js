@@ -43,7 +43,7 @@ const TechnologienPage = () => (
               target="_blank"
               rel="noopener noreferrer"
             >
-              Mac OS X
+              macOS
             </a>
           </li>
         </ul>
@@ -243,6 +243,33 @@ const TechnologienPage = () => (
               rel="noopener noreferrer"
             >
               React
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/facebook/graphql"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GraphQL
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/facebook/relay"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Relay
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://mobx.js.org"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              MobX
             </a>
           </li>
           <li>
