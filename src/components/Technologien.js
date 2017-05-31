@@ -274,24 +274,6 @@ const TechnologienPage = () => (
           </li>
           <li>
             <a
-              href="http://jquery.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              jQuery
-            </a>
-          </li>
-          <li>
-            <a
-              href="http://jquerymobile.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              jQuery mobile
-            </a>
-          </li>
-          <li>
-            <a
               href="http://getbootstrap.com/"
               target="_blank"
               rel="noopener noreferrer"
@@ -301,11 +283,11 @@ const TechnologienPage = () => (
           </li>
           <li>
             <a
-              href="http://jqueryui.com/"
+              href="http://www.material-ui.com"
               target="_blank"
               rel="noopener noreferrer"
             >
-              jQuery UI
+              Material UI
             </a>
           </li>
           <li>
