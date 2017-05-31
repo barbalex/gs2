@@ -64,10 +64,10 @@ const PublicPage = () => (
             auf Windows, Mac und Linux
           </li>
           <li>
-            besonders leistungsfähig oder:
+            besonders leistungsfähig oder
           </li>
           <li>
-            beinahe Null-Unterhalts-Lösungen möglich
+            beinahe Null-Unterhalt
           </li>
         </ul>
       </div>
