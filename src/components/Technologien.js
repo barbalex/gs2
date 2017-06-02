@@ -159,15 +159,6 @@ const TechnologienPage = () => (
           </li>
           <li>
             <a
-              href="http://de.wikipedia.org/wiki/PHP"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              PHP
-            </a>
-          </li>
-          <li>
-            <a
               href="http://de.wikipedia.org/wiki/SQL"
               target="_blank"
               rel="noopener noreferrer"
