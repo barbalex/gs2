@@ -47,7 +47,7 @@ const TechnologienPage = () => (
             >
               macOS
             </a>
-            <p>Enwickler fliegen drauf...</p>
+            <p>Entwickler fliegen drauf...</p>
           </li>
         </ul>
         <img
