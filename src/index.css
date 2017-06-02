@@ -145,6 +145,9 @@ body {
   color: #333;
   border-bottom: 1px dashed #333;
 }
+.technologien li p {
+  margin-bottom: -2px;
+}
 
 .technologien a:hover {
   border-bottom: 1px solid #428BCA;

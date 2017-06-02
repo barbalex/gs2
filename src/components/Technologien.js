@@ -27,6 +27,7 @@ const TechnologienPage = () => (
             >
               Windows
             </a>
+            <p>Der Benutzerfreundliche</p>
           </li>
           <li>
             <a
@@ -36,6 +37,7 @@ const TechnologienPage = () => (
             >
               Ubuntu Linux
             </a>
+            <p>Der Server-Meister</p>
           </li>
           <li>
             <a
@@ -45,6 +47,7 @@ const TechnologienPage = () => (
             >
               macOS
             </a>
+            <p>Enwickler fliegen drauf...</p>
           </li>
         </ul>
         <img
@@ -60,30 +63,33 @@ const TechnologienPage = () => (
         <ul>
           <li>
             <a
-              href="http://couchdb.apache.org"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              CouchDB
-            </a>
-          </li>
-          <li>
-            <a
               href="http://www.postgresql.org"
               target="_blank"
               rel="noopener noreferrer"
             >
               PostgreSQL
             </a>
+            <p>Der Klassenprimus</p>
           </li>
           <li>
             <a
-              href="http://www.mysql.de"
+              href="http://couchdb.apache.org"
               target="_blank"
               rel="noopener noreferrer"
             >
-              MySQL
+              CouchDB
             </a>
+            <p>Der Synchronisationsmeister</p>
+          </li>
+          <li>
+            <a
+              href="https://pouchdb.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              PouchDB
+            </a>
+            <p>CouchDB im Browser</p>
           </li>
           <li>
             <a
@@ -92,6 +98,16 @@ const TechnologienPage = () => (
               rel="noopener noreferrer"
             >
               SQLite
+            </a>
+            <p>{`Simpler geht's nimmer`}</p>
+          </li>
+          <li>
+            <a
+              href="http://www.mysql.de"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              MySQL
             </a>
           </li>
           <li>
@@ -127,8 +143,9 @@ const TechnologienPage = () => (
               target="_blank"
               rel="noopener noreferrer"
             >
-              JavaScript / ES6
+              JavaScript
             </a>
+            <p>Weiter-Entwicklungs-Meister</p>
           </li>
           <li>
             <a
@@ -138,6 +155,7 @@ const TechnologienPage = () => (
             >
               JSON
             </a>
+            <p>Hierarchische Datenstrukturen</p>
           </li>
           <li>
             <a
@@ -147,6 +165,7 @@ const TechnologienPage = () => (
             >
               CSS
             </a>
+            <p>Layouten</p>
           </li>
           <li>
             <a
@@ -165,15 +184,7 @@ const TechnologienPage = () => (
             >
               SQL
             </a>
-          </li>
-          <li>
-            <a
-              href="http://de.wikipedia.org/wiki/Visual_Basic_for_Applications"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              VBA
-            </a>
+            <p>Nach wie vor der Datenmeister</p>
           </li>
         </ul>
       </div>
@@ -191,6 +202,7 @@ const TechnologienPage = () => (
             >
               node.js
             </a>
+            <p>JavaScript auf PC und Server</p>
           </li>
           <li>
             <a
@@ -200,6 +212,17 @@ const TechnologienPage = () => (
             >
               electron
             </a>
+            <p>JavaScript-Anwendungen lokal installieren</p>
+          </li>
+          <li>
+            <a
+              href="https://flow.org"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              flow
+            </a>
+            <p>Findet Fehler, bevor der Code ausgeführt wird</p>
           </li>
           <li>
             <a
@@ -209,6 +232,7 @@ const TechnologienPage = () => (
             >
               hapi
             </a>
+            <p>Meister Server</p>
           </li>
           <li>
             <a
@@ -226,6 +250,7 @@ const TechnologienPage = () => (
             >
               webpack
             </a>
+            <p>Entwicklung konfigurieren</p>
           </li>
           <li>
             <a
@@ -235,6 +260,9 @@ const TechnologienPage = () => (
             >
               React
             </a>
+            <p>
+              Die Benutzeroberfläche ist eine Funktion der Anwendungsdaten. Revolutionär!
+            </p>
           </li>
           <li>
             <a
@@ -244,8 +272,7 @@ const TechnologienPage = () => (
             >
               GraphQL
             </a>
-          </li>
-          <li>
+            &nbsp;und&nbsp;
             <a
               href="https://github.com/facebook/relay"
               target="_blank"
@@ -253,6 +280,9 @@ const TechnologienPage = () => (
             >
               Relay
             </a>
+            <p>
+              Die Anwendungsdaten sind eine Funktion der Abfrage. Revolutionär!
+            </p>
           </li>
           <li>
             <a
@@ -262,6 +292,9 @@ const TechnologienPage = () => (
             >
               MobX
             </a>
+            <p>
+              Meister im Manipulieren von Anwendungsdaten
+            </p>
           </li>
           <li>
             <a
@@ -271,8 +304,7 @@ const TechnologienPage = () => (
             >
               Bootstrap
             </a>
-          </li>
-          <li>
+            &nbsp;und&nbsp;
             <a
               href="http://www.material-ui.com"
               target="_blank"
@@ -280,6 +312,19 @@ const TechnologienPage = () => (
             >
               Material UI
             </a>
+            <p>Layouten nach Google und Microsoft</p>
+          </li>
+          <li>
+            <a
+              href="https://github.com/styled-components/styled-components"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              styled-components
+            </a>
+            <p>
+              CSS für Komponenten. Genial!
+            </p>
           </li>
           <li>
             <a
@@ -289,6 +334,9 @@ const TechnologienPage = () => (
             >
               CouchApp
             </a>
+            <p>
+              CouchDB-Datenbank, Server und Anwendung in Einem! Läuft und läuft und läuft...
+            </p>
           </li>
           <li>
             <a
@@ -298,8 +346,15 @@ const TechnologienPage = () => (
             >
               OpenLayers
             </a>
-          </li>
-          <li>
+            ,&nbsp;
+            <a
+              href="http://leafletjs.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Leaflet
+            </a>
+            ,&nbsp;
             <a
               href="http://www.geo.admin.ch/internet/geoportal/de/home/services/geoservices/display_services/api_services.html"
               target="_blank"
@@ -307,8 +362,7 @@ const TechnologienPage = () => (
             >
               GeoAdmin API
             </a>
-          </li>
-          <li>
+            &nbsp;und&nbsp;
             <a
               href="https://developers.google.com/maps/?hl=de"
               target="_blank"
@@ -316,6 +370,7 @@ const TechnologienPage = () => (
             >
               Google Maps API
             </a>
+            <p>Karten einbinden</p>
           </li>
         </ul>
       </div>
