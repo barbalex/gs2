@@ -79,7 +79,7 @@ const TechnologienPage = () =>
             >
               CouchDB
             </a>
-            <p>Der Synchronisationsmeister</p>
+            <p>Der Synchronisations-Meister</p>
           </li>
           <li>
             <a
@@ -187,7 +187,9 @@ const TechnologienPage = () =>
             >
               SQL
             </a>
-            <p>Nach wie vor der Datenmeister</p>
+            <p>
+              Nach wie vor der Standard, um Daten abzufragen und zu manipulieren
+            </p>
           </li>
         </ul>
       </div>
