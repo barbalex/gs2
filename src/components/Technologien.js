@@ -5,7 +5,7 @@ import appleImg from '../images/apple.png'
 import windowsImg from '../images/windows_sw.png'
 import databaseImg from '../images/database.png'
 
-const TechnologienPage = () => (
+const TechnologienPage = () =>
   <div id="technologien" className="page technologien not_home">
     <p className="lead">
       Mit diesen Technologien kenne ich mich aus:
@@ -145,7 +145,10 @@ const TechnologienPage = () => (
             >
               JavaScript
             </a>
-            <p>Weiter-Entwicklungs-Meister</p>
+            <p>
+              Die verbreitetste Programmiersprache. Vermutlich auch die
+              vielfältigste und sich am schnellsten weiter entwickelnde
+            </p>
           </li>
           <li>
             <a
@@ -250,7 +253,7 @@ const TechnologienPage = () => (
             >
               webpack
             </a>
-            <p>Entwicklung konfigurieren</p>
+            <p>Entwicklungsumgebung konfigurieren</p>
           </li>
           <li>
             <a
@@ -261,7 +264,8 @@ const TechnologienPage = () => (
               React
             </a>
             <p>
-              Die Benutzeroberfläche ist eine Funktion der Anwendungsdaten. Revolutionär!
+              Die Benutzeroberfläche ist eine Funktion der Anwendungsdaten.
+              Revolutionär!
             </p>
           </li>
           <li>
@@ -328,14 +332,15 @@ const TechnologienPage = () => (
           </li>
           <li>
             <a
-              href="http://docs.couchdb.org/en/1.6.1/couchapp"
+              href="http://docs.couchdb.org/en/2.0.0/couchapp"
               target="_blank"
               rel="noopener noreferrer"
             >
               CouchApp
             </a>
             <p>
-              CouchDB-Datenbank, Server und Anwendung in Einem! Läuft und läuft und läuft...
+              CouchDB-Datenbank, Server und Anwendung in Einem! Läuft und läuft
+              und läuft...
             </p>
           </li>
           <li>
@@ -376,7 +381,6 @@ const TechnologienPage = () => (
       </div>
     </div>
   </div>
-)
 
 TechnologienPage.displayName = 'TechnologienPage'
 
