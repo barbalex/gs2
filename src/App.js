@@ -3,19 +3,18 @@ import { Route, Link, Switch } from 'react-router-dom'
 import { withRouter } from 'react-router'
 import Navbar from 'react-bootstrap/lib/Navbar'
 
-import manageNavbarToggleVisibility
-  from './modules/manageNavbarToggleVisibility'
+import manageNavbarToggleVisibility from './modules/manageNavbarToggleVisibility'
 
-import Public from './components/Public'
-import Leitbild from './components/Leitbild'
-import Projekte from './components/Projekte'
-import Technologien from './components/Technologien'
-import Kontakt from './components/Kontakt'
+import Public from './components/AsyncPublic'
+import Leitbild from './components/AsyncLeitbild'
+import Projekte from './components/AsyncProjekte'
+import Technologien from './components/AsyncTechnologien'
+import Kontakt from './components/AsyncKontakt'
 import FourOhFour from './components/FourOhFour'
 
 manageNavbarToggleVisibility()
 
-const App = ({ location }) => (
+const App = ({ location }) =>
   <div>
     <div className="header">
       <Navbar inverse fixedTop>
@@ -27,9 +26,7 @@ const App = ({ location }) => (
               data-toggle="collapse"
               data-target=".navbar-collapse"
             >
-              <span className="sr-only">
-                Toggle navigation
-              </span>
+              <span className="sr-only">Toggle navigation</span>
               <span className="icon-bar" />
               <span className="icon-bar" />
               <span className="icon-bar" />
@@ -92,6 +89,5 @@ const App = ({ location }) => (
       </Switch>
     </div>
   </div>
-)
 
 export default withRouter(App)
