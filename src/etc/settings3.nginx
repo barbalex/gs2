@@ -45,6 +45,11 @@ server {
     text/x-cross-domain-policy;
     # text/html is always compressed by gzip module
 
+    # this leads to blank pages!!!???
+    location ~*  \.(jpg|jpeg|png|gif|ico|css|js|pdf)$ {
+        expires 7d;
+    }
+
     # Use the Let’s Encrypt certificates
     ssl_certificate /etc/letsencrypt/live/gabriel-software.ch/fullchain.pem;
     ssl_certificate_key /etc/letsencrypt/live/gabriel-software.ch/privkey.pem;
