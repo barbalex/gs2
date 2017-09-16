@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import ImageLoader from 'react-imageloader'
 
 import prepareGoogleMap from '../modules/prepareGoogleMap'
 import alexImg from '../images/alex.jpg'
@@ -14,11 +13,14 @@ class KontaktPage extends Component {
       <div id="kontakt" className="page kontakt">
         <div className="row marketing">
           <div className="col-lg-3">
-            <ImageLoader src={alexImg} className="js-alexImage">
-              (Sorry, das Bild wurde nicht geladen)
-            </ImageLoader>
+            <img
+              alt="Alexander Gabriel"
+              src={alexImg}
+              className="js-alexImage"
+            />
             <address className="js-address">
-              <strong>Gabriel Software</strong><br />
+              <strong>Gabriel Software</strong>
+              <br />
               Alexander Gabriel<br />
               Bönirainstrasse 14<br />
               8800 Thalwil<br />
