@@ -233,14 +233,6 @@ const TechnologienPage = () => (
           </li>
           <li>
             <a
-              href="http://gulpjs.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              gulp.js
-            </a>
-            &nbsp;und&nbsp;
-            <a
               href="http://webpack.github.io"
               target="_blank"
               rel="noopener noreferrer"
