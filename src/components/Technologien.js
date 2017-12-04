@@ -5,19 +5,15 @@ import appleImg from '../images/apple.png'
 import windowsImg from '../images/windows_sw.png'
 import databaseImg from '../images/database.png'
 
-const TechnologienPage = () =>
+const TechnologienPage = () => (
   <div id="technologien" className="page technologien not_home">
-    <p className="lead">
-      Mit diesen Technologien kenne ich mich aus:
-    </p>
+    <p className="lead">Mit diesen Technologien kenne ich mich aus:</p>
     <div className="row marketing">
       <div className="col-lg-4">
         <img src={linuxSwImg} alt="Linux" height="30" width="30" />
         <img src={appleImg} alt="MaxOs" height="30" width="30" />
         <img src={windowsImg} alt="Windows" height="30" width="30" />
-        <h4>
-          Betriebssysteme
-        </h4>
+        <h4>Betriebssysteme</h4>
         <ul>
           <li>
             <a
@@ -57,9 +53,7 @@ const TechnologienPage = () =>
           width="30"
           style={{ marginTop: 30, marginLeft: -4 }}
         />
-        <h4 style={{ marginTop: 5 }}>
-          Datenbanken
-        </h4>
+        <h4 style={{ marginTop: 5 }}>Datenbanken</h4>
         <ul>
           <li>
             <a
@@ -133,9 +127,7 @@ const TechnologienPage = () =>
         >
           {'if ( ... ) then \u007B ... \u007D'}
         </div>
-        <h4 style={{ marginTop: 3 }}>
-          Programmiersprachen
-        </h4>
+        <h4 style={{ marginTop: 3 }}>Programmiersprachen</h4>
         <ul>
           <li>
             <a
@@ -271,20 +263,16 @@ const TechnologienPage = () =>
             </p>
           </li>
           <li>
-            <a
-              href="https://github.com/facebook/graphql"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="//graphql.org/" target="_blank" rel="noopener noreferrer">
               GraphQL
             </a>
             &nbsp;und&nbsp;
             <a
-              href="https://github.com/facebook/relay"
+              href="https://www.apollographql.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Relay
+              Apollo
             </a>
             <p>
               Die Anwendungsdaten sind eine Funktion der Abfrage. Revolutionär!
@@ -298,9 +286,7 @@ const TechnologienPage = () =>
             >
               MobX
             </a>
-            <p>
-              Meister im Manipulieren von Anwendungsdaten
-            </p>
+            <p>Meister im Manipulieren von Anwendungsdaten</p>
           </li>
           <li>
             <a
@@ -328,9 +314,7 @@ const TechnologienPage = () =>
             >
               styled-components
             </a>
-            <p>
-              CSS für Komponenten. Genial!
-            </p>
+            <p>CSS für Komponenten. Genial!</p>
           </li>
           <li>
             <a
@@ -383,6 +367,7 @@ const TechnologienPage = () =>
       </div>
     </div>
   </div>
+)
 
 TechnologienPage.displayName = 'TechnologienPage'
 
