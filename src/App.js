@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route, Link, Switch } from 'react-router-dom'
+import { Route, Redirect, Link, Switch } from 'react-router-dom'
 import { withRouter } from 'react-router'
 import Navbar from 'react-bootstrap/lib/Navbar'
 
@@ -14,7 +14,7 @@ import FourOhFour from './components/FourOhFour'
 
 manageNavbarToggleVisibility()
 
-const App = ({ location }) =>
+const App = ({ location }) => (
   <div>
     <div className="header">
       <Navbar inverse fixedTop>
@@ -81,6 +81,7 @@ const App = ({ location }) =>
     <div className="container">
       <Switch>
         <Route exact path="/" component={Public} />
+        <Route exact path="/index.html" render={() => <Redirect to="/" />} />
         <Route path="/leitbild" component={Leitbild} />
         <Route path="/projekte" component={Projekte} />
         <Route path="/technologien" component={Technologien} />
@@ -89,5 +90,6 @@ const App = ({ location }) =>
       </Switch>
     </div>
   </div>
+)
 
 export default withRouter(App)
