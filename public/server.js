@@ -46,9 +46,9 @@ server.register(Inert, function() {
 
   server.route({
     method: 'GET',
-    path: '/manifest.js',
+    path: '/manifest.json',
     handler: {
-      file: 'manifest.js',
+      file: 'manifest.json',
     },
   })
 
