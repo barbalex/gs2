@@ -1,5 +1,5 @@
 {
-  "short_name": "Gabriel Software",
+  "short_name": "Gabriel",
   "name": "Gabriel Software",
   "icons": [
     {
@@ -8,7 +8,7 @@
       "type": "image/png"
     }
   ],
-  "start_url": "./index.html",
+  "start_url": "index.html",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
