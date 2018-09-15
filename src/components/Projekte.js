@@ -133,7 +133,7 @@ const ProjektePage = ({ location }) => (
               <CarouselItem>
                 <img src={apfChkartenImg} alt="...oder auf CH-Karten" />
                 <div className="carousel-caption">
-                  <h2>auf CH-Karten darstellen</h2>
+                  <h2>auf Karten darstellen</h2>
                 </div>
               </CarouselItem>
               <CarouselItem>
@@ -170,11 +170,11 @@ const ProjektePage = ({ location }) => (
             <p>
               Mehr Informationen&nbsp;
               <a
-                href="https://github.com/FNSKtZH/apflora"
+                href="https://barbalex.github.io/apf2"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                auf GitHub
+                auf der Projekt-Webseite
               </a>
             </p>
           </section>
