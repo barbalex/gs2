@@ -77,7 +77,9 @@ const ProjektePage = ({ location }) => (
               location.hash === '#blue-borders' ? 'nav-a active' : 'nav-a'
             }
           >
-            mediterranean-migration.com
+            mediterranean-
+            <br />
+            migration.com
           </NavItem>
           <NavItem
             href="projekte#kapla"
