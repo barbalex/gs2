@@ -77,7 +77,7 @@ const ProjektePage = ({ location }) => (
               location.hash === '#blue-borders' ? 'nav-a active' : 'nav-a'
             }
           >
-            blue-borders.ch
+            mediterranean-migration.com
           </NavItem>
           <NavItem
             href="projekte#kapla"
@@ -397,7 +397,7 @@ const ProjektePage = ({ location }) => (
           </section>
           <section id="blue-borders" className="projekt sektion anchor">
             <img src={bbImg} alt="blue borders" height={51} />
-            <h4>blue-borders.ch</h4>
+            <h4>mediterranean-migration.com</h4>
             <p>
               Übersicht über die Migration durch das zentrale und östliche
               Mittelmeer.
@@ -429,11 +429,11 @@ const ProjektePage = ({ location }) => (
             <p>
               Schauen Sie selber:&nbsp;
               <a
-                href="http://blue-borders.ch"
+                href="https://mediterranean-migration.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                blue-borders.ch
+                mediterranean-migration.com
               </a>
             </p>
           </section>
